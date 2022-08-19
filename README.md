@@ -25,7 +25,7 @@
 
 ## 📁 Acesso ao projeto
 
-https://github.com/jaquemaggot/ApiProdutoPrivado
+https://github.com/jaquemaggot/api-produto
 
 ## 🛠️ Como rodar a aplicação
 
