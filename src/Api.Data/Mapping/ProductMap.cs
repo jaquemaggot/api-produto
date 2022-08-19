@@ -19,7 +19,7 @@ namespace Api.Data.Mapping
             builder.Property(p => p.Length);
             builder.Property(p => p.Weight).HasColumnType("decimal(18,2)");
             builder.Property(p => p.Gtin).IsUnicode();
-            builder.Property(p => p.Value);
+            builder.Property(p => p.Value).HasColumnType("decimal(18,2)");
             builder.Property(p => p.AcquisitionDate);
             builder.Property(p => p.ImageBase64);
         }

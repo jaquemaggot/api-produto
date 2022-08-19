@@ -31,7 +31,7 @@ namespace Data.SqlServer.Migrations
                     Length = table.Column<int>(nullable: true),
                     Weight = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
                     Gtin = table.Column<string>(nullable: true),
-                    Value = table.Column<decimal>(nullable: true),
+                    Value = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
                     AcquisitionDate = table.Column<DateTime>(nullable: true),
                     ImageBase64 = table.Column<string>(nullable: true)
                 },
