@@ -50,8 +50,8 @@ Para executar o projeto siga os passos:
 
 :memo: No navegador é possível executar de duas formas:
 
-    - Utilizando : https://localhost:5001/swagger/index.html (Para acesso com https)
-    - Utilizando : http://localhost:5000/swagger/index.html (Para acesso com http)
+    - Utilizando : https://localhost:5001/index.html (Para acesso com https)
+    - Utilizando : http://localhost:5000/index.html (Para acesso com http)
 
 ## Desenvolvedora
 [<sub>Jaqueline Santos</sub>](https://github.com/jaquemaggot)
