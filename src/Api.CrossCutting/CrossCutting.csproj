@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.28" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.28" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api.Domain\Domain.csproj" />
+    <ProjectReference Include="..\Api.Data\Data.csproj" />
+    <ProjectReference Include="..\Api.Service\Service.csproj" />
+  </ItemGroup>
+
+</Project>
